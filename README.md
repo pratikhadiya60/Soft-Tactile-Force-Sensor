@@ -1,7 +1,7 @@
 # Soft Tactile Force Sensor
 
 <p align="center">
-  <img src="images/prototype_setup.png" alt="Prototype Setup" width="650">
+  <img src="images/project_overview.png" alt="Prototype Setup" width="650">
 </p>
 
 A soft tactile force sensor built using an ESP32 and an MLX90393 magnetometer. The sensor estimates contact force by tracking the movement of a small embedded magnet inside a silicone structure and sends the measurements to a local Flask server over Wi-Fi.
