@@ -194,13 +194,7 @@ Instead of fitting a mathematical equation, the firmware performs linear interpo
 
 ## Prototype
 
-The final prototype consists of the ESP32 development board, the MLX90393 sensor module, and the 3D printed housing that holds the sensing element.
-
-<p align="center">
-  <img src="images/sensor_setup.png" width="500">
-</p>
-
-The ESP32 continuously measures the magnetic field, estimates the force, and sends the calculated values to the Flask server over Wi-Fi.
+The final prototype consists of the ESP32 development board, the MLX90393 sensor module, and the 3D printed housing that holds the sensing element.The ESP32 continuously measures the magnetic field, estimates the force, and sends the calculated values to the Flask server over Wi-Fi.
 
 
 # Getting Started
