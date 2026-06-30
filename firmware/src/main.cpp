@@ -1,12 +1,13 @@
+#include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_MLX90393.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
 Adafruit_MLX90393 sensor = Adafruit_MLX90393();
 
-const char* ssid = "OnePlus NordCE 5G";
-const char* password = "y7g5p7bm";
-const char* serverUrl = "http://10.32.222.206:5000/data";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+const char* serverUrl = "http://<SERVER_IP>:5000/data";
 // Raw values
 float x, y, z;
 
